@@ -1,0 +1,91 @@
+/* SF Pro */
+
+/* 900 Heavy */
+@font-face {
+	font-display: swap;
+	font-family: 'SF-Pro-Display';
+	font-weight: 900;
+	src: url(./fonts/sf-pro/SF-Pro-Display-Black.otf) format('truetype');
+}
+
+/* 800 Extra Bold */
+@font-face {
+	font-display: swap;
+	font-family: 'SF-Pro-Display';
+	font-weight: 800;
+	src: url(./fonts/sf-pro/SF-Pro-Display-Heavy.otf) format('truetype');
+}
+
+/* 700 Bold */
+@font-face {
+	font-display: swap;
+	font-family: 'SF-Pro-Display';
+	font-weight: 700;
+	src: url(./fonts/sf-pro/SF-Pro-Display-Bold.otf) format('truetype');
+}
+
+/* 600 SemiBold */
+@font-face {
+	font-display: swap;
+	font-family: 'SF-Pro-Display';
+	font-weight: 600;
+	src: url(./fonts/sf-pro/SF-Pro-Display-Semibold.otf) format('truetype');
+}
+
+/* 500 Medium */
+@font-face {
+	font-display: swap;
+	font-family: 'SF-Pro-Display';
+	font-weight: 500;
+	src: url(./fonts/sf-pro/SF-Pro-Display-Medium.otf) format('truetype');
+}
+
+/* 400 normal/regular */
+@font-face {
+	font-display: swap;
+	font-family: 'SF-Pro-Display';
+	font-weight: 400;
+	src: url(./fonts/sf-pro/SF-Pro-Display-Regular.otf) format('truetype');
+}
+
+/* 300 light */
+@font-face {
+	font-display: swap;
+	font-family: 'SF-Pro-Display';
+	font-weight: 300;
+	src: url(./fonts/sf-pro/SF-Pro-Display-Light.otf) format('truetype');
+}
+
+/* 200 Ultra light*/
+@font-face {
+	font-display: swap;
+	font-family: 'SF-Pro-Display';
+	font-weight: 200;
+	src: url(./fonts/sf-pro/SF-Pro-Display-Thin.otf) format('truetype');
+}
+
+/* 100 Thin*/
+@font-face {
+	font-display: swap;
+	font-family: 'SF-Pro-Display';
+	font-weight: 100;
+	src: url(./fonts/sf-pro/SF-Pro-Display-Ultralight.otf) format('truetype');
+}
+
+/* Inter */
+
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto Flex';
+	font-weight: 100 900;
+	src: url(./fonts/roboto/RobotoFlex-VariableFont_GRAD\XOPQ\XTRA\YOPQ\YTAS\YTDE\YTFI\YTLC\YTUC\opsz\slnt\wdth\wght.ttf)
+		format('truetype') tech('variations');
+}
+
+/* Roboto Flex */
+@font-face {
+	font-display: swap;
+	font-family: 'SF-Pro-Display';
+	font-weight: 100;
+	src: url(./fonts/sf-pro/SF-Pro-Display-Ultralight.otf) format('truetype');
+}

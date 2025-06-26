@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..900&display=swap');
+			.sf-pro {
+				font-family: 'SF-Pro-Display';
+			}
+
+			.roboto-flex {
+				font-family: 'Roboto Flex';
+			}
+
+			.inter {
+				font-family: 'Inter';
+			}
+
+			.open-sans {
+				font-family: 'Open Sans';
+			}
+
+			.ibm-plex {
+				font-family: 'IBM Plex Sans';
+			}
+
+			h3 {
+				margin-block-end: 0.25rem;
+				font-size: 20px !important;
+			}
+
+			p {
+				margin-block-start: 0.25rem;
+			}
+
+			#font-container {
+				width: 50vw;
+			}
+		</style>
+		<link rel="stylesheet" href="fonts.css" />
+	</head>
+
+	<body id="body">
+		<label>
+			Weight
+			<input
+				type="range"
+				name="weight"
+				id="font-weight"
+				min="100"
+				max="900"
+				step="100"
+				oninput="this.dataset.value=this.value"
+			/>
+		</label>
+		<label>
+			Size
+			<input
+				type="range"
+				name="size"
+				id="font-size"
+				min="8"
+				max="32"
+				oninput="this.dataset.value=this.value"
+			/>
+		</label>
+		<div id="font-container">
+			<div class="sf-pro">
+				<h3>SF Pro</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipiscing elit in suscipit
+					at, sem iaculis massa volutpat.
+				</p>
+			</div>
+			<div class="inter">
+				<h3>Inter</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipiscing elit in suscipit
+					at, sem iaculis massa volutpat.
+				</p>
+			</div>
+			<div class="roboto-flex">
+				<h3>Roboto Flex</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipiscing elit in suscipit
+					at, sem iaculis massa volutpat.
+				</p>
+			</div>
+			<div class="ibm-plex">
+				<h3>IBM Plex Sans</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipiscing elit in suscipit
+					at, sem iaculis massa volutpat.
+				</p>
+			</div>
+			<div class="open-sans">
+				<h3>Open Sans</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur, adipiscing elit in suscipit
+					at, sem iaculis massa volutpat.
+				</p>
+			</div>
+		</div>
+	</body>
+	<script>
+		const fontContainer = document.getElementById('font-container');
+
+		const weightInput = document.getElementById('font-weight');
+
+		weightInput.addEventListener('input', (e) => {
+			fontContainer.style.fontWeight = e.target.value;
+		});
+
+		const sizeInput = document.getElementById('font-size');
+
+		sizeInput.addEventListener('input', (e) => {
+			fontContainer.style.fontSize = e.target.value + 'px';
+		});
+	</script>
+</html>
